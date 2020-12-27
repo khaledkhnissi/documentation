@@ -1,1 +1,18 @@
 site_name: PARC
+theme: readthedocs
+markdown_extensions:
+    - admonition
+    - abbr
+    - attr_list
+    - toc:
+        permalink: True
+        separator: "_"
+plugins:
+    - search
+nav:
+    - Home: 'index.md'
+    - 'Step by Step Guides':
+        - 'Setting Up Computer': 'setting-up-computer/index.md'
+    - About:
+        - 'License': 'license.md'
+        - 'Release Notes': 'release-notes.md'
