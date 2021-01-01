@@ -1,0 +1,10 @@
+# pre-commit
+
+PATH=$PATH:/usr/local/bin:/usr/local/sbin
+
+# Build site folder
+mkdocs build
+
+git add ./site
+
+exit 0

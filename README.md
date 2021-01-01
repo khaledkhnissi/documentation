@@ -7,6 +7,7 @@ Read The docs
 ## Setup
 ```
 pip install mkdocs
+git config core.hooksPath .githooks
 ```
 
 ## Develop
