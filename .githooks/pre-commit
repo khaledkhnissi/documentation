@@ -2,9 +2,7 @@
 
 PATH=$PATH:/usr/local/bin:/usr/local/sbin
 
-# Build site folder
-mkdocs build -d public
-
-git add ./public
+# Build site folder and deploy
+mkdocs gh-deploy
 
 exit 0
