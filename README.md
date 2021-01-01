@@ -18,6 +18,7 @@ mkdocs serve
 
 ## Deploy
 ```
-git commit -am "<message>"
+git add -A
+git commit
 git push
 ```
