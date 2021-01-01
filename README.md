@@ -9,6 +9,7 @@ Read The docs
 pip install mkdocs
 git config core.hooksPath .githooks
 ```
+**NOTE**: mkdocs command should be available in PATH, please install it globally (and not in any virtual-env)
 
 ## Develop
 ```

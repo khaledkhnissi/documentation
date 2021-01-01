@@ -3,8 +3,8 @@
 PATH=$PATH:/usr/local/bin:/usr/local/sbin
 
 # Build site folder
-mkdocs build
+mkdocs build -d public
 
-git add ./site
+git add ./public
 
 exit 0
