@@ -10,10 +10,13 @@ markdown_extensions:
 plugins:
     - search
 nav:
-    - Home: 'index.md'
-    - 'Step by Step Guides':
-        - 'Setting Up Computer': 'setting-up-computer/index.md'
-    - About:
-        - 'License': 'license.md'
-        - 'Release Notes': 'release-notes.md'
+    - 'Competition Overview': 'competition-overview/index.md'
+
+    - 'Competition Instruction': 
+        - 'Phase 1: Simulation': 'competition-instruction/phase1/index.md'
+        - 'Phase 2: Physical Robot': 'competition-instruction/phase2/index.md'
+
+    - 'Getting Started Tutorials':
+        - 'Setting up your PC': 'setting-up-computer/index.md'
+
 extra_css: [theme_override.css]
