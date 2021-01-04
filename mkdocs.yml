@@ -17,6 +17,6 @@ nav:
         - 'Phase 2: Physical Robot': 'phase2-instructions/index.md'
 
     - 'Getting Started Tutorials':
-        - 'Setting up your PC': 'getting-started/setting-up-computer/index.md'
+        - 'Setting up your PC': 'getting-started/setting-up-your-pc/index.md'
 
 extra_css: [theme_override.css]
