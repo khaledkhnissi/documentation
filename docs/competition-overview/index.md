@@ -1,6 +1,6 @@
 # Competition Overview
 
-[ Motivating image ]
+![Motivating image](images/overview.png)
 
 Robotics and AI is revolutionizing the what and how we work today and will continue in the future. Today, robots are augmenting the capability of human workers in various industries: logistics, healthcare, agriculture, etc.
 
@@ -14,9 +14,10 @@ This competition would consist two phases: a simulation phase and a physical rob
 
 ### Simulation Phase
 In this phase, teams would interact with the delivery robot in simulation (using the Gazebo Robot Simulator). Participants are required to write software to complete three crucial tasks for the operation of a delivery robot:
-- Sidewalk following (with obstacle avoidance)
-- Traffic sign detection and recognition
-- Go-to-goal navigation (with obstacle avoidance)
+
+* Sidewalk following (with obstacle avoidance)
+* Traffic sign detection and recognition
+* Go-to-goal navigation (with obstacle avoidance)
 
 Participating teams can download the complete simulation packages (follow this link) and follow the instruction [here] to set up their PCs and complete the tasks.
 Teams are required to submit their solutions to the competition drive on or before the Phase 1 deadline. Following team evaluations, teams with the best solutions will qualify to compete in Phase 2.
@@ -32,10 +33,10 @@ To be allowed to compete on the final competition, teams must submit a report (i
 ## How to Participate
 
 Prospective teams would be required to complete an online application [add link to online form] by providing the following information:
-- Team name and affiliation
-- Team members names
-- Previous experiences with robotics
-- A one-page essay on the role of robotics on the future of work in Africa (uploaded as a PDF)
+* Team name and affiliation
+* Team members names
+* Previous experiences with robotics
+* A one-page essay on the role of robotics on the future of work in Africa (uploaded as a PDF)
 
 
 
