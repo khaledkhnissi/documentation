@@ -33,6 +33,7 @@ To be allowed to compete on the final competition, teams must submit a report (i
 ## How to Participate
 
 Prospective teams would be required to complete an online application [add link to online form] by providing the following information:
+
 * Team name and affiliation
 * Team members names
 * Previous experiences with robotics

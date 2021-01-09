@@ -1,12 +1,18 @@
+
 # Phase 1: Simulation
 
 In this phase, teams would interact with the delivery robot in simulation (using the Gazebo Robot Simulator). Participants are required to write software to complete three crucial tasks for the operation of a delivery robot:
-- Sidewalk following (with obstacle avoidance)
-- Traffic sign detection and recognition
-- Go-to-goal navigation (with obstacle avoidance)
+
+* Sidewalk following (with obstacle avoidance)
+* Traffic sign detection and recognition
+* Go-to-goal navigation (with obstacle avoidance)
+
+_____________________________________________________________________________
+<br>
 
 ## Task 1: Sidewalk following
-[Image]
+
+![task1 GIF](media/task1.gif)
 
 Delivery robots need to be able to navigate safely through sidewalks as the move from pick up to drop off locations. In this task, we have simplified the sidewalk following problem by adding lanes to the sidewalk. Hence, teams are required to develop software to navigate the robot within the lanes from start to end position. Bear in mind that along with lane following, the robot would be required to avoid obstacles which may lie in its path.
 
@@ -20,14 +26,19 @@ Delivery robots need to be able to navigate safely through sidewalks as the move
 
 ### Scoring
 The score for this task would be determined using the following metrics:
+
 * Out-of-lane distance penalty
 * Final distance from goal (set time limit)
 * No. of collisions penalty
 * Completion time
 
+_____________________________________________________________________________
 
+<br>
 
 ## Task 2: Traffic sign detection and recognition
+
+![task2 GIF](media/task2.gif)
 
 ### Task Guidelines
 - **Goal:** Implement software which uses camera feeds to detect and recognise the state of the traffic sign and control the robot to safely cross the road. Safe crossing means that the robot launches into the road only when the traffic sign is "green" and the robot reaches the other side before it turns "red".
@@ -39,15 +50,19 @@ The score for this task would be determined using the following metrics:
 
 ### Scoring
 The score for this task would be determined using the following metrics:
+
 * Reaction time
 * Goal completion i.e. has the robot reached the other side of road by the termination of green signal?
 * Wrong crossing (binary)
 * Completion time
 
+_____________________________________________________________________________
 
-
+<br>
 
 ## Task 3: Go-to-goal navigation
+
+![task3 GIF](media/task3.gif)
 
 ### Task Guidelines
 - **Goal:** Implement software which processes sensory information from the robots sensors (camera and LiDAR) and generates velocity commands to control the robot's motion to move from the start position towards to drop off which is in front of the person standing in the park.
@@ -57,18 +72,26 @@ The score for this task would be determined using the following metrics:
 ` roslaunch <our-robot-package-name> task3.launch `
 
 ### Scoring
-* Data to collect: rosbag of TFs
+The score for this task would be determined using the following metrics:
+
 * No. of collisions penalty
 * Final distance from goal (set time limit)
 * Completion time
 
+_____________________________________________________________________________
+
+<br>
+
 ## What to Submit
 Teams would submit a zipped folder containing the following:
+
 * Complete catkin workspace **src folder** containing all the installed packages used to complete the task.
 * A README file (either .txt, .md, or .pdf) with the following information:
     * List all the packages installed and used in your solution.
     * Provide commands required to run your solution. This should be: <br>
-    ` roslaunch <your-package-name> task2_solution.launch `
+    Task 1: ` roslaunch <your-package-name> task1_solution.launch ` <br>
+    Task 2: ` roslaunch <your-package-name> task2_solution.launch ` <br>
+    Task 3: ` roslaunch <your-package-name> task3_solution.launch `
 * **NOTE:** Please ensure you include all the packages (dependencies) used in your solution in your package's "package.xml" file [see guide]. <br>
 
 The zipped folder should be uploaded using this *solution submission form*.
