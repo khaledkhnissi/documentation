@@ -18,5 +18,6 @@ nav:
 
     - 'Getting Started Tutorials':
         - 'Setting up your PC': 'getting-started/setting-up-your-pc/index.md'
+        - 'Setting up your Workspace': 'getting-started/setting-up-your-workspace/index.md'
 
 extra_css: [theme_override.css]
