@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Setting up your PC - PARC</title>
+  <title>Setting up your Workspace - PARC</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Setting up your PC";
-    var mkdocs_page_input_path = "getting-started/setting-up-your-pc/index.md";
+    var mkdocs_page_name = "Setting up your Workspace";
+    var mkdocs_page_input_path = "getting-started/setting-up-your-workspace/index.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -73,29 +73,35 @@
 		
     <span class="caption-text">Getting Started Tutorials</span>
     <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../setting-up-your-pc/">Setting up your PC</a>
+                </li>
                 <li class=" current">
                     
-    <a class="current" href="./">Setting up your PC</a>
+    <a class="current" href="./">Setting up your Workspace</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#how_to_setup_the_computer">How to setup the Computer</a></li>
+    <li class="toctree-l3"><a href="#how_to_set_up_your_workspace">How to set up your workspace</a></li>
     
         <ul>
         
-            <li><a class="toctree-l4" href="#system_requirements">System requirements</a></li>
+            <li><a class="toctree-l4" href="#setup_ros_workspace">Setup ROS workspace</a></li>
         
-            <li><a class="toctree-l4" href="#operating_system">Operating System</a></li>
+            <li><a class="toctree-l4" href="#clone_the_repository">Clone the repository</a></li>
         
-            <li><a class="toctree-l4" href="#installing_ros">Installing ROS</a></li>
+            <li><a class="toctree-l4" href="#install_dependencies">Install dependencies</a></li>
+        
+            <li><a class="toctree-l4" href="#compile_packages">Compile packages</a></li>
+        
+            <li><a class="toctree-l4" href="#set_up_ros_environment">Set up ROS environment</a></li>
+        
+            <li><a class="toctree-l4" href="#test_installation">Test installation</a></li>
         
         </ul>
     
 
     </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../setting-up-your-workspace/">Setting up your Workspace</a>
                 </li>
     </ul>
 	    </li>
@@ -126,7 +132,7 @@
         
       
     
-    <li>Setting up your PC</li>
+    <li>Setting up your Workspace</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -136,30 +142,61 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="how_to_setup_the_computer">How to setup the Computer<a class="headerlink" href="#how_to_setup_the_computer" title="Permanent link">&para;</a></h1>
-<p>This guide helps you setup your computer for running the competition environment locally and developing the code.</p>
-<p>You can use local Computer/Laptop or Virtual Machine inside your computer or any cloud platform like <a href="https://cloud.google.com/free" target="_blank">Google <abbr title="Google Cloud Platform">GCP</abbr></a>, <a href="https://aws.amazon.com/free/" target="_blank">Amazon <abbr title="Amazon Web Services">AWS</abbr></a>, <a href="https://azure.microsoft.com/en-us/free/" target="_blank">Microsoft Azure</a>, <a href="https://try.digitalocean.com/freetrialoffer/" target="_blank">Digital Ocean</a>, etc (All Cloud providers have some free trial plan which you can make use of).</p>
-<h2 id="system_requirements">System requirements<a class="headerlink" href="#system_requirements" title="Permanent link">&para;</a></h2>
-<p>The competition setup needs to be run on <a href="https://ubuntu.com/download" target="_blank">Ubuntu</a>, a flavor of <a href="https://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a>. You will need a computer that has:</p>
-<ul>
-<li>A dedicated <a href="https://en.wikipedia.org/wiki/Graphics_processing_unit" target="_blank"><abbr title="Graphics Processing Unit">GPU</abbr></a>,<ul>
-<li>Nvidia cards tend to work well in Ubuntu</li>
-</ul>
-</li>
-<li>A <abbr title="Central Processing Unit">CPU</abbr> that is at least an Intel i5, or equivalent,</li>
-<li>At least 4GB of free disk space,</li>
-<li>At least 8GB of RAM,</li>
-<li>Ubuntu Xenial installed.</li>
-</ul>
-<h2 id="operating_system">Operating System<a class="headerlink" href="#operating_system" title="Permanent link">&para;</a></h2>
-<p>If not already installed, Install <strong><a href="https://releases.ubuntu.com/bionic/" target="_blank">Ubuntu Bionic (18.04)</a></strong> on the system by following <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview" target="_blank">this guide</a>.</p>
+                <h1 id="how_to_set_up_your_workspace">How to set up your workspace<a class="headerlink" href="#how_to_set_up_your_workspace" title="Permanent link">&para;</a></h1>
+<p>In this tutorial, you will set your set up a directory on your ROS-enabled PC as your workspace for development and install the competition ROS packages. Please follow the instructions below carefully.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>It is highly recommended to install <a href="https://releases.ubuntu.com/bionic/" target="_blank"> Bionic (18.04)</a> version of Ubuntu due to <a href="http://wiki.ros.org/melodic" target="_blank"><abbr title="Robot Operating System">ROS</abbr> (Melodic)</a> dependency.</p>
+<p>This can ONLY be completed after you have set up your PC (by following the previous tutorial)</p>
 </div>
-<h2 id="installing_ros">Installing <abbr title="Robot Operating System">ROS</abbr><a class="headerlink" href="#installing_ros" title="Permanent link">&para;</a></h2>
-<p>You need to install <abbr title="Robot Operating System">ROS</abbr> Melodic by following <a href="http://wiki.ros.org/melodic/Installation/Ubuntu" target="_blank">this guide</a> and install <code>ros-melodic-desktop-full</code> in the step <code>1.4</code> of the guide.</p>
-<!-- Abbrevations used in this page -->
+<h3 id="setup_ros_workspace">Setup ROS workspace<a class="headerlink" href="#setup_ros_workspace" title="Permanent link">&para;</a></h3>
+<!-- First, we create a new directory in your home directory called `catkin_ws` with a subdirectory `src`. Then we initialize the directory as a catkin workspace. -->
+
+<p>Open a new terminal on your PC, then copy and paste the following one line at a time:</p>
+<pre><code>mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+catkin_init_workspace
+</code></pre>
+
+<p><br></p>
+<h3 id="clone_the_repository">Clone the repository<a class="headerlink" href="#clone_the_repository" title="Permanent link">&para;</a></h3>
+<p>In the same terminal (or in a new one), copy and paste the following:</p>
+<pre><code>cd ~/catkin_ws/src
+git clone --recurse-submodules https://github.com/PARC-Robotics/parc-robot.git
+</code></pre>
+
+<p><br></p>
+<h3 id="install_dependencies">Install dependencies<a class="headerlink" href="#install_dependencies" title="Permanent link">&para;</a></h3>
+<p>In the same terminal (or in a new one), copy and paste the following:</p>
+<pre><code>cd ~/catkin_ws
+sudo apt update
+rosdep install --from-paths ./src --ignore-src -y
+</code></pre>
+
+<p><br></p>
+<h3 id="compile_packages">Compile packages<a class="headerlink" href="#compile_packages" title="Permanent link">&para;</a></h3>
+<pre><code>cd ~/catkin_ws
+catkin_make
+source ~/catkin_ws/devel/setup.bash
+</code></pre>
+
+<p><br></p>
+<h3 id="set_up_ros_environment">Set up ROS environment<a class="headerlink" href="#set_up_ros_environment" title="Permanent link">&para;</a></h3>
+<p>To set the environment every time you launch a new terminal, following this command:</p>
+<pre><code>echo &quot;source ~/catkin_ws/devel/setup.bash&quot; &gt;&gt; ~/.bashrc
+source ~/.bashrc
+</code></pre>
+
+<p>As you develop, it is good to set the environment variables whenever you run a <code>catkin_make</code> command to compile changes to your packages. You can do that by:</p>
+<pre><code>source ~/catkin_ws/devel/setup.bash
+</code></pre>
+
+<p><br></p>
+<h3 id="test_installation">Test installation<a class="headerlink" href="#test_installation" title="Permanent link">&para;</a></h3>
+<p>If you completed the preceding tasks successfully, you should be able to run this ROS launch command and see the Gazebo simulator and RViz simulator open with the following display:</p>
+<pre><code>roslaunch parc-robot robot.launch
+</code></pre>
+
+<p><br></p>
               
             </div>
           </div>
@@ -167,10 +204,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../setting-up-your-workspace/" class="btn btn-neutral float-right" title="Setting up your Workspace">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../../phase2-instructions/" class="btn btn-neutral" title="Phase 2: Physical Robot"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../setting-up-your-pc/" class="btn btn-neutral" title="Setting up your PC"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -196,10 +231,8 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../../phase2-instructions/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../setting-up-your-pc/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../setting-up-your-workspace/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
