@@ -13,7 +13,11 @@ nav:
     - 'Competition Overview': 'competition-overview/index.md'
 
     - 'Competition Instruction': 
-        - 'Phase 1: Simulation': 'phase1-instructions/index.md'
+        - 'Phase 1: Simulation':
+            - 'Introduction': 'phase1-instructions/index.md'
+            - 'Task 1': 'phase1-instructions/task1.md'
+            - 'Task 2': 'phase1-instructions/task2.md'
+            - 'Task 3': 'phase1-instructions/task3.md'
         - 'Phase 2: Physical Robot': 'phase2-instructions/index.md'
 
     - 'Getting Started Tutorials':
