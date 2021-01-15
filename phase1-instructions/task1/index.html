@@ -70,6 +70,8 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../task3/">Task 3</a>
                 </li>
+                <li class="toctree-l2"><a class="reference internal" href="../how-to-submit/">How to Submit</a>
+                </li>
     </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
@@ -138,7 +140,7 @@
 <li>Run the following launch file to bring up the delivery robot in the world in a new terminal <br>
     <code>roslaunch parc-robot task1.launch</code> 
     <br></li>
-<li>You should see the display below in Gazebo. To the right, there's the robot with the visible LiDAR rays (blue rays) and to the left is the orange-red sphere which represents the <strong>goal location</strong>.</li>
+<li>You should see the display below in Gazebo. To the right, there's the robot and to the left is the orange-red sphere which represents the <strong>goal location</strong>.</li>
 </ul>
 <p><img alt="task1.1" src="../media/task1.png" /></p>
 <ul>
@@ -152,8 +154,16 @@
 </ul>
 </li>
 <li>
-<p>You need to create a new launch file which runs ALL the code you need in your solution. Name this launch file: <code>task1_solution.launch</code>.</p>
+<p>You need to create a new launch file in your ROS package which runs ALL the code you need in your solution. Name this launch file: <code>task1_solution.launch</code>.</p>
 </li>
+</ul>
+<p>So the whole task with solution would wokr by calling both the commands shown below simultaneously,</p>
+<pre><code>roslaunch parc-robot task1.launch
+</code></pre>
+<p>and in another terminal</p>
+<pre><code>roslaunch &lt;your-package-name&gt; task1_solution.launch
+</code></pre>
+<ul>
 <li>
 <p>While developing, we recommend you play around with different start and goal positions to ensure your solution is robust.</p>
 </li>

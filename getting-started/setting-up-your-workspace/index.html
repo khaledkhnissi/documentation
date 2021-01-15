@@ -64,6 +64,8 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../phase1-instructions/task3/">Task 3</a>
                 </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../phase1-instructions/how-to-submit/">How to Submit</a>
+                </li>
     </ul>
                     </li>
                     <li class="toctree-l1"><a class="reference internal" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
@@ -136,44 +138,53 @@
 <!-- First, we create a new directory in your home directory called `catkin_ws` with a subdirectory `src`. Then we initialize the directory as a catkin workspace. -->
 
 <p>Open a new terminal on your PC, then copy and paste the following one line at a time:</p>
-<pre><code>mkdir -p ~/catkin_ws/src
+<pre><code class="language-sh">mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 catkin_init_workspace
 </code></pre>
-<p><br></p>
 <h3 id="clone_the_repository">Clone the repository<a class="headerlink" href="#clone_the_repository" title="Permanent link">&para;</a></h3>
 <p>In the same terminal (or in a new one), copy and paste the following:</p>
-<pre><code>cd ~/catkin_ws/src
-git clone --recurse-submodules https://github.com/PARC-Robotics/parc-robot.git
+<pre><code class="language-sh">cd ~/catkin_ws/src
+git clone --recurse-submodules https://github.com/PARC-Robotics/PARC-Engineers-League.git
 </code></pre>
-<p><br></p>
+<p>Or if you already have cloned the repo without submodules, run command <code>git submodule update --init --recursive</code> to update them.</p>
 <h3 id="install_dependencies">Install dependencies<a class="headerlink" href="#install_dependencies" title="Permanent link">&para;</a></h3>
 <p>In the same terminal (or in a new one), copy and paste the following:</p>
-<pre><code>cd ~/catkin_ws
+<pre><code class="language-sh">cd ~/catkin_ws
 sudo apt update
 rosdep install --from-paths ./src --ignore-src -y
 </code></pre>
-<p><br></p>
 <h3 id="compile_packages">Compile packages<a class="headerlink" href="#compile_packages" title="Permanent link">&para;</a></h3>
-<pre><code>cd ~/catkin_ws
+<pre><code class="language-sh">cd ~/catkin_ws
 catkin_make
 source ~/catkin_ws/devel/setup.bash
 </code></pre>
-<p><br></p>
+<p><strong>NOTE:</strong> There is a known issue while compiling, <code>Intel RealSense SDK 2.0 is missing</code><br />
+To solve, update the file <code>realsense-ros/realsense_camera/CMakeLists.txt</code>,line: 43 to <code>find_package(realsense2 2.36.0)</code>
+i.e. downgrade the required version of <code>realsense2</code> to <code>2.36.0</code></p>
 <h3 id="set_up_ros_environment">Set up ROS environment<a class="headerlink" href="#set_up_ros_environment" title="Permanent link">&para;</a></h3>
 <p>To set the environment every time you launch a new terminal, following this command:</p>
-<pre><code>echo &quot;source ~/catkin_ws/devel/setup.bash&quot; &gt;&gt; ~/.bashrc
+<pre><code class="language-sh">echo &quot;source ~/catkin_ws/devel/setup.bash&quot; &gt;&gt; ~/.bashrc
 source ~/.bashrc
 </code></pre>
 <p>As you develop, it is good to set the environment variables whenever you run a <code>catkin_make</code> command to compile changes to your packages. You can do that by:</p>
-<pre><code>source ~/catkin_ws/devel/setup.bash
+<pre><code class="language-sh">source ~/catkin_ws/devel/setup.bash
 </code></pre>
-<p><br></p>
 <h3 id="test_installation">Test installation<a class="headerlink" href="#test_installation" title="Permanent link">&para;</a></h3>
 <p>If you completed the preceding tasks successfully, you should be able to run this ROS launch command and see the Gazebo simulator and RViz simulator open with the following display:</p>
-<pre><code>roslaunch parc-robot robot.launch
+<pre><code class="language-sh">roslaunch parc-robot task1.launch
 </code></pre>
-<p><br></p>
+<p>And run the following command in another terminal</p>
+<pre><code class="language-sh">source ~/catkin_ws/devel/setup.bash
+roslaunch parc-robot teleop.launch
+</code></pre>
+<p>Now keeping the second terminal on top (teleop.launch) press <code>i</code> to move the robot forward, you can see the robot moving in "RViz" and "Gazebo" windows.
+you can use the keys shown below to move the robot and <code>k</code> key to stop the movement.</p>
+<pre><code class="language-sh">Moving around:
+   u    i    o
+   j    k    l
+   m    ,    .
+</code></pre>
               
             </div>
           </div>
