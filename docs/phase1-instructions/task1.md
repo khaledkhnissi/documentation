@@ -20,7 +20,7 @@ Delivery robots need to be able to navigate safely through street sidewalks as t
     roslaunch parc-robot task1.launch
     ``` 
     <br>
-- You should see the display below in Gazebo. To the right, there's the robot with the visible LiDAR rays (blue rays) and to the left is the orange-red sphere which represents the **goal location**.
+- You should see the display below in Gazebo. To the right, there's the robot and to the left is the orange-red sphere which represents the **goal location**.
 
 ![task1.1](media/task1.png)
 
@@ -34,7 +34,17 @@ Delivery robots need to be able to navigate safely through street sidewalks as t
     roslaunch parc-robot task1.launch goal_x:-12.28 goal_y:2.54
     ```
 
-- You need to create a new launch file which runs ALL the code you need in your solution. Name this launch file: `task1_solution.launch`.
+- You need to create a new launch file in your ROS package which runs ALL the code you need in your solution. Name this launch file: `task1_solution.launch`.
+
+So the whole task with solution would wokr by calling both the commands shown below simultaneously,
+```
+roslaunch parc-robot task1.launch
+```
+and in another terminal
+```
+roslaunch <your-package-name> task1_solution.launch
+```
+
 
 - While developing, we recommend you play around with different start and goal positions to ensure your solution is robust.
 

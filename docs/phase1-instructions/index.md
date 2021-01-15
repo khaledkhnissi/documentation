@@ -13,28 +13,3 @@ Teams are provided with the delivery robot ROS packages and Gazebo environment m
 Each task is designed as stand-alone, not depending on other task functionalities, hence, we request teams to complete the tasks separately. The tasks would be evaluated individually and the total team score for this phase would be the sum of individual task scores.
 
 
-_____________________________________________________________________________
-
-<br>
-
-_____________________________________________________________________________
-
-<br>
-
-_____________________________________________________________________________
-
-<br>
-
-## What to Submit
-Teams would submit a zipped folder containing the following:
-
-* Complete catkin workspace **src folder** containing all the installed packages used to complete the task.
-* A README file (either .txt, .md, or .pdf) with the following information:
-    * List all the packages installed and used in your solution.
-    * Provide commands required to run your solution. This should be: <br>
-    Task 1: ` roslaunch <your-package-name> task1_solution.launch ` <br>
-    Task 2: ` roslaunch <your-package-name> task2_solution.launch ` <br>
-    Task 3: ` roslaunch <your-package-name> task3_solution.launch `
-* **NOTE:** Please ensure you include all the packages (dependencies) used in your solution in your package's "package.xml" file [see guide]. <br>
-
-The zipped folder should be uploaded using this *solution submission form*.
