@@ -15,9 +15,9 @@ nav:
     - 'Competition Instruction': 
         - 'Phase 1: Simulation':
             - 'Introduction': 'phase1-instructions/index.md'
-            - 'Task 1': 'phase1-instructions/task1.md'
-            - 'Task 2': 'phase1-instructions/task2.md'
-            - 'Task 3': 'phase1-instructions/task3.md'
+            - 'Task 1: Sidewalk following': 'phase1-instructions/task1.md'
+            - 'Task 2: Traffic sign detection and recognition': 'phase1-instructions/task2.md'
+            - 'Task 3: Go-to-goal navigation': 'phase1-instructions/task3.md'
             - 'How to Submit': 'phase1-instructions/how-to-submit.md'
         - 'Phase 2: Physical Robot': 'phase2-instructions/index.md'
 
