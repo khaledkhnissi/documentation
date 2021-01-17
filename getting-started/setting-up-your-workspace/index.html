@@ -7,15 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-  
   <link rel="shortcut icon" href="../../img/favicon.ico">
   <title>Setting up your Workspace - PARC</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="../../css/theme.css" />
-  <link rel="stylesheet" href="../../css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
-  <link href="../../theme_override.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../theme_override.css" rel="stylesheet">
   
   <script>
     // Current page data
@@ -26,7 +25,7 @@
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
   <script src="../../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
@@ -37,9 +36,8 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="../.." class="icon icon-home"> PARC</a>
+        <a href="../../competition-overview/" class="icon icon-home"> PARC</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -48,52 +46,91 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../../competition-overview/">Competition Overview</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Competition Instruction</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="#">Phase 1: Simulation</a>
-    <ul>
-                <li class="toctree-l2"><a class="reference internal" href="../../phase1-instructions/">Introduction</a>
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../competition-overview/">Competition Overview</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Competition Instruction</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <span class="caption-text">Phase 1: Simulation</span>
+    <ul class="subnav">
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../phase1-instructions/">Introduction</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../phase1-instructions/task1/">Task 1</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../phase1-instructions/task1/">Task 1: Sidewalk following</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../phase1-instructions/task2/">Task 2</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../phase1-instructions/task2/">Task 2: Traffic sign detection and recognition</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../phase1-instructions/task3/">Task 3</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../phase1-instructions/task3/">Task 3: Go-to-goal navigation</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../phase1-instructions/how-to-submit/">How to Submit</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../../phase1-instructions/how-to-submit/">How to Submit</a>
                 </li>
     </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Getting Started Tutorials</span></p>
-                <ul class="current">
-                    <li class="toctree-l1"><a class="reference internal" href="../setting-up-your-pc/">Setting up your PC</a>
-                    </li>
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Setting up your Workspace</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#setup_ros_workspace">Setup ROS workspace</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#clone_the_repository">Clone the repository</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#install_dependencies">Install dependencies</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#compile_packages">Compile packages</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#set_up_ros_environment">Set up ROS environment</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#test_installation">Test installation</a>
-    </li>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
+                </li>
     </ul>
-                    </li>
-                </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started Tutorials</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../setting-up-your-pc/">Setting up your PC</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Setting up your Workspace</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#how_to_set_up_your_workspace">How to set up your workspace</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#setup_ros_workspace">Setup ROS workspace</a></li>
+        
+            <li><a class="toctree-l4" href="#clone_the_repository">Clone the repository</a></li>
+        
+            <li><a class="toctree-l4" href="#install_dependencies">Install dependencies</a></li>
+        
+            <li><a class="toctree-l4" href="#compile_packages">Compile packages</a></li>
+        
+            <li><a class="toctree-l4" href="#set_up_ros_environment">Set up ROS environment</a></li>
+        
+            <li><a class="toctree-l4" href="#test_installation">Test installation</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
       </div>
-    </div>
+      &nbsp;
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -101,7 +138,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../..">PARC</a>
+        <a href="../../competition-overview/">PARC</a>
       </nav>
 
       
@@ -109,7 +146,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../..">Docs</a> &raquo;</li>
+    <li><a href="../../competition-overview/">Docs</a> &raquo;</li>
     
       
         
@@ -122,7 +159,6 @@
       
     </li>
   </ul>
-  
   <hr/>
 </div>
           <div role="main">
@@ -138,49 +174,57 @@
 <!-- First, we create a new directory in your home directory called `catkin_ws` with a subdirectory `src`. Then we initialize the directory as a catkin workspace. -->
 
 <p>Open a new terminal on your PC, then copy and paste the following one line at a time:</p>
-<pre><code class="language-sh">mkdir -p ~/catkin_ws/src
+<pre><code class="sh">mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 catkin_init_workspace
 </code></pre>
+
 <h3 id="clone_the_repository">Clone the repository<a class="headerlink" href="#clone_the_repository" title="Permanent link">&para;</a></h3>
 <p>In the same terminal (or in a new one), copy and paste the following:</p>
-<pre><code class="language-sh">cd ~/catkin_ws/src
+<pre><code class="sh">cd ~/catkin_ws/src
 git clone --recurse-submodules https://github.com/PARC-Robotics/PARC-Engineers-League.git
 </code></pre>
+
 <p>Or if you already have cloned the repo without submodules, run command <code>git submodule update --init --recursive</code> to update them.</p>
 <h3 id="install_dependencies">Install dependencies<a class="headerlink" href="#install_dependencies" title="Permanent link">&para;</a></h3>
 <p>In the same terminal (or in a new one), copy and paste the following:</p>
-<pre><code class="language-sh">cd ~/catkin_ws
+<pre><code class="sh">cd ~/catkin_ws
 sudo apt update
 rosdep install --from-paths ./src --ignore-src -y
 </code></pre>
+
 <h3 id="compile_packages">Compile packages<a class="headerlink" href="#compile_packages" title="Permanent link">&para;</a></h3>
-<pre><code class="language-sh">cd ~/catkin_ws
+<pre><code class="sh">cd ~/catkin_ws
 catkin_make
 source ~/catkin_ws/devel/setup.bash
 </code></pre>
+
 <p><strong>NOTE:</strong> There is a known issue while compiling, <code>Intel RealSense SDK 2.0 is missing</code><br />
 To solve, update the file <code>realsense-ros/realsense_camera/CMakeLists.txt</code>,line: 43 to <code>find_package(realsense2 2.36.0)</code>
 i.e. downgrade the required version of <code>realsense2</code> to <code>2.36.0</code></p>
 <h3 id="set_up_ros_environment">Set up ROS environment<a class="headerlink" href="#set_up_ros_environment" title="Permanent link">&para;</a></h3>
 <p>To set the environment every time you launch a new terminal, following this command:</p>
-<pre><code class="language-sh">echo &quot;source ~/catkin_ws/devel/setup.bash&quot; &gt;&gt; ~/.bashrc
+<pre><code class="sh">echo &quot;source ~/catkin_ws/devel/setup.bash&quot; &gt;&gt; ~/.bashrc
 source ~/.bashrc
 </code></pre>
+
 <p>As you develop, it is good to set the environment variables whenever you run a <code>catkin_make</code> command to compile changes to your packages. You can do that by:</p>
-<pre><code class="language-sh">source ~/catkin_ws/devel/setup.bash
+<pre><code class="sh">source ~/catkin_ws/devel/setup.bash
 </code></pre>
+
 <h3 id="test_installation">Test installation<a class="headerlink" href="#test_installation" title="Permanent link">&para;</a></h3>
 <p>If you completed the preceding tasks successfully, you should be able to run this ROS launch command and see the Gazebo simulator and RViz simulator open with the following display:</p>
-<pre><code class="language-sh">roslaunch parc-robot task1.launch
+<pre><code class="sh">roslaunch parc-robot task1.launch
 </code></pre>
+
 <p>And run the following command in another terminal</p>
-<pre><code class="language-sh">source ~/catkin_ws/devel/setup.bash
+<pre><code class="sh">source ~/catkin_ws/devel/setup.bash
 roslaunch parc-robot teleop.launch
 </code></pre>
+
 <p>Now keeping the second terminal on top (teleop.launch) press <code>i</code> to move the robot forward, you can see the robot moving in "RViz" and "Gazebo" windows.
 you can use the keys shown below to move the robot and <code>k</code> key to stop the movement.</p>
-<pre><code class="language-sh">Moving around:
+<pre><code class="sh">Moving around:
    u    i    o
    j    k    l
    m    ,    .
@@ -205,7 +249,7 @@ you can use the keys shown below to move the robot and <code>k</code> key to sto
     
   </div>
 
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
         </div>
@@ -215,7 +259,7 @@ you can use the keys shown below to move the robot and <code>k</code> key to sto
 
   </div>
 
-  <div class="rst-versions" role="note" aria-label="versions">
+  <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
@@ -227,11 +271,6 @@ you can use the keys shown below to move the robot and <code>k</code> key to sto
     <script>var base_url = '../..';</script>
     <script src="../../js/theme.js" defer></script>
       <script src="../../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        };
-    </script>
 
 </body>
 </html>

@@ -7,26 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-  
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Task 2 - PARC</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+  <title>Task 2: Traffic sign detection and recognition - PARC</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="../../css/theme.css" />
-  <link rel="stylesheet" href="../../css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
-  <link href="../../theme_override.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../theme_override.css" rel="stylesheet">
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Task 2";
+    var mkdocs_page_name = "Task 2: Traffic sign detection and recognition";
     var mkdocs_page_input_path = "phase1-instructions/task2.md";
     var mkdocs_page_url = null;
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
   <script src="../../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
@@ -37,9 +36,8 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="../.." class="icon icon-home"> PARC</a>
+        <a href="../../competition-overview/" class="icon icon-home"> PARC</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -48,44 +46,83 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../../competition-overview/">Competition Overview</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Competition Instruction</span></p>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="#">Phase 1: Simulation</a>
-    <ul class="current">
-                <li class="toctree-l2"><a class="reference internal" href="../">Introduction</a>
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../competition-overview/">Competition Overview</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Competition Instruction</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <span class="caption-text">Phase 1: Simulation</span>
+    <ul class="subnav">
+                <li class="toctree-l3">
+                    
+    <a class="" href="../">Introduction</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../task1/">Task 1</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../task1/">Task 1: Sidewalk following</a>
                 </li>
-                <li class="toctree-l2 current"><a class="reference internal current" href="./">Task 2</a>
-    <ul class="current">
-    <li class="toctree-l3"><a class="reference internal" href="#task_guidelines">Task Guidelines</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#scoring">Scoring</a>
-    </li>
+                <li class="toctree-l3 current">
+                    
+    <a class="current" href="./">Task 2: Traffic sign detection and recognition</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l4"><a href="#task_2_traffic_sign_detection_and_recognition">Task 2: Traffic sign detection and recognition</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l5" href="#task_guidelines">Task Guidelines</a></li>
+        
+            <li><a class="toctree-l5" href="#task_rules_and_scoring">Task Rules and Scoring</a></li>
+        
+        </ul>
+    
+
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../task3/">Task 3</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../task3/">Task 3: Go-to-goal navigation</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../how-to-submit/">How to Submit</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../how-to-submit/">How to Submit</a>
                 </li>
     </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Getting Started Tutorials</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../../getting-started/setting-up-your-pc/">Setting up your PC</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../../getting-started/setting-up-your-workspace/">Setting up your Workspace</a>
-                    </li>
-                </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started Tutorials</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../getting-started/setting-up-your-pc/">Setting up your PC</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../getting-started/setting-up-your-workspace/">Setting up your Workspace</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
       </div>
-    </div>
+      &nbsp;
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -93,7 +130,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../..">PARC</a>
+        <a href="../../competition-overview/">PARC</a>
       </nav>
 
       
@@ -101,7 +138,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../..">Docs</a> &raquo;</li>
+    <li><a href="../../competition-overview/">Docs</a> &raquo;</li>
     
       
         
@@ -113,56 +150,122 @@
         
       
     
-    <li>Task 2</li>
+    <li>Task 2: Traffic sign detection and recognition</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
   </ul>
-  
   <hr/>
 </div>
           <div role="main">
             <div class="section">
               
-                <h2 id="task_2_traffic_sign_detection_and_recognition">Task 2: Traffic sign detection and recognition<a class="headerlink" href="#task_2_traffic_sign_detection_and_recognition" title="Permanent link">&para;</a></h2>
+                <h1 id="task_2_traffic_sign_detection_and_recognition">Task 2: Traffic sign detection and recognition<a class="headerlink" href="#task_2_traffic_sign_detection_and_recognition" title="Permanent link">&para;</a></h1>
 <p><img alt="task2 GIF" src="../media/task2.gif" /></p>
 <p>Road crossing is inevitable for delivery robots as they navigate our streets to complete their delivery task. The task of road crossing is tricky even for humans to complete safely. A major component of the task is monitoring the traffic sign to ensure you comply with it. In this task, you are required to perform traffic sign detection and recognition. We have included a traffic sign with two states (RED and GREEN). </p>
 <p>Teams are required to develop software to use the on-board camera to detect and recognise the state of the traffic sign. </p>
 <p><strong>Task 2 Goal:</strong> The goal of this task is to perform safe road crossing by detecting and recognising the state of the traffic sign and crossing only when the state is GREEN (GO).</p>
-<h3 id="task_guidelines">Task Guidelines<a class="headerlink" href="#task_guidelines" title="Permanent link">&para;</a></h3>
+<h2 id="task_guidelines">Task Guidelines<a class="headerlink" href="#task_guidelines" title="Permanent link">&para;</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Make sure you have completed the <strong>Getting Started Tutorials</strong> before starting the tasks.</p>
 </div>
+<h5 id="1_launching_the_task">1. Launching the Task<a class="headerlink" href="#1_launching_the_task" title="Permanent link">&para;</a></h5>
 <ul>
-<li>Run the following launch file to bring up the delivery robot in the world in a new terminal <br>
-    <code>roslaunch parc-robot task2.launch</code> 
-    <br></li>
+<li>In a new terminal, run the following launch file to bring up the delivery robot in Gazebo and RViz: <br></li>
+</ul>
+<pre><code>roslaunch parc-robot task2.launch
+</code></pre>
+
+<ul>
 <li>
-<p>You should see the display below in Gazebo. The traffic sign is initially set to RED and would change to GREEN after the <code>start_delay</code> duration is complete.</p>
+<p>You should see the display below in Gazebo. The robot needs to cross the crosswalk and reach the orange-red sphere (<strong>goal location</strong>) on the other side.</p>
 </li>
 <li>
-<p>While developing, we recommend you play around with different values for the <code>start_delay</code> duration by passing an argument as follows:</p>
-<p><code>roslaunch parc-robot task2.launch start_delay:=20</code>
-<br></p>
-</li>
-<li>
-<p>The time duration from GREEN to RED is set to <strong>20 secs</strong>. This means that you have ~20 secs to cross the road and reach the goal (x=-2.3, y=11.1) after the traffic sign goes green. If the robot is still on the cross walk (i.e. its X position is less than -2.1), the crossing would be considered as failed.</p>
+<p>The traffic sign is initially set to RED and would change to GREEN after the <code>start_delay</code> duration is complete.</p>
 </li>
 </ul>
 <p><img alt="task2.1" src="../media/task2.png" /></p>
+<h5 id="2_explore_multiple_start_delays">2. Explore Multiple Start Delays<a class="headerlink" href="#2_explore_multiple_start_delays" title="Permanent link">&para;</a></h5>
+<ul>
+<li>We have provided a simple way to set arbitrary values for the <code>start_delay</code>. This can be done by passing an argument as follows (e.g. we set it to 20 here):</li>
+</ul>
+<pre><code>roslaunch parc-robot task2.launch start_delay:=20
+</code></pre>
+
+<ul>
+<li>
+<p>While developing, we recommend you play around with different values for the start_delay to ensure your solution is robust.</p>
+</li>
+<li>
+<p>Also we recommend you consider setting a high <code>start_delay</code> value when running your solution to account for any code start delays when you launch your code.</p>
+</li>
+</ul>
+<h5 id="3_preparing_your_solution">3. Preparing your Solution<a class="headerlink" href="#3_preparing_your_solution" title="Permanent link">&para;</a></h5>
+<ul>
+<li>
+<p>Your solution should be prepared as ROS packages to be saved in your solution folder [link to how to submit]. Create a launch file in your ROS package which runs ALL the code you need in your solution. Name this launch file: <code>task2_solution.launch</code>.</p>
+</li>
+<li>
+<p>Hence, your solution to Task 2 should be run by calling the following commands simulatenously: </p>
+</li>
+</ul>
+<p>In one terminal:</p>
+<pre><code>roslaunch parc-robot task2.launch
+</code></pre>
+
+<p>In another terminal:</p>
+<pre><code>roslaunch &lt;your-package-name&gt; task2_solution.launch
+</code></pre>
+
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Ensure you DO NOT provide a solution with hard-coded move commands for the robot based on a particular <code>start_delay</code> value because in evaluation, the <code>start_delay</code> value would be randomized. Also, NO hacks for monitoring the state of the traffic sign (such as checking any ROS topics) would be allowed. If it is found out, you will receive a ZERO score for this task.</p>
+<p>Ensure you DO NOT provide a solution with hard-coded move commands for the robot based on a particular <code>start_delay</code> value because in evaluation, the <code>start_delay</code> value would be randomized. </p>
+<p>Also, NO hacks for monitoring the state of the traffic sign would be allowed, you must use a <strong>vision-based approach</strong> ONLY. If the use of a hack is found out, you will receive a ZERO score for this task.</p>
 </div>
-<h3 id="scoring">Scoring<a class="headerlink" href="#scoring" title="Permanent link">&para;</a></h3>
-<p>The score for this task would be determined using the following metrics:</p>
+<h2 id="task_rules_and_scoring">Task Rules and Scoring<a class="headerlink" href="#task_rules_and_scoring" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Reaction time</li>
-<li>Goal completion i.e. has the robot reached the other side of road by the termination of green signal?</li>
-<li>Wrong crossing (binary)</li>
-<li>Completion time</li>
+<li>
+<p>The GO-time (time duration with signal on GREEN) is set to <strong>15 secs</strong>. This means that you have ~15 secs to cross the road and reach the goal location.</p>
+</li>
+<li>
+<p>The task is ONLY <strong>complete</strong> when ANY part of the robot is inside the orange-red sphere (goal location marker). You are required to stop when you arrive at the goal location.</p>
+</li>
 </ul>
+<!-- If the robot is still on the cross walk (i.e. its X position is less than -2.1), the crossing would be considered as failed. -->
+
+<p>Scoring for this task would be based on the following criteria:</p>
+<table>
+<thead>
+<tr>
+<th>S/N</th>
+<th>Criteria / Metric</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Reaction time</td>
+<td>Time between traffic sign state change to GREEN and when robot starts to move (<strong>Smaller is better</strong>)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Goal completion</td>
+<td><strong>1</strong> if robot reached the goal location, <strong>0</strong> otherwise</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Safe crossing</td>
+<td><strong>1</strong> if robot is within the crosswalk ONLY when the signal is GREEN, <strong>0</strong> otherwise (i.e. <strong>0</strong> if robot is on crosswalk when signal is RED).</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Completion time</td>
+<td>Time from launching the solution to task completion (<strong>Smaller is better</strong>)</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div>
@@ -170,10 +273,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../task3/" class="btn btn-neutral float-right" title="Task 3">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../task3/" class="btn btn-neutral float-right" title="Task 3: Go-to-goal navigation">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../task1/" class="btn btn-neutral" title="Task 1"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../task1/" class="btn btn-neutral" title="Task 1: Sidewalk following"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -185,7 +288,7 @@
     
   </div>
 
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
         </div>
@@ -195,7 +298,7 @@
 
   </div>
 
-  <div class="rst-versions" role="note" aria-label="versions">
+  <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
@@ -209,11 +312,6 @@
     <script>var base_url = '../..';</script>
     <script src="../../js/theme.js" defer></script>
       <script src="../../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        };
-    </script>
 
 </body>
 </html>

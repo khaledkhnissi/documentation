@@ -7,26 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-  
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Task 3 - PARC</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+  <title>Task 3: Go-to-goal navigation - PARC</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="../../css/theme.css" />
-  <link rel="stylesheet" href="../../css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
-  <link href="../../theme_override.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../theme_override.css" rel="stylesheet">
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Task 3";
+    var mkdocs_page_name = "Task 3: Go-to-goal navigation";
     var mkdocs_page_input_path = "phase1-instructions/task3.md";
     var mkdocs_page_url = null;
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
   <script src="../../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
@@ -37,9 +36,8 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="../.." class="icon icon-home"> PARC</a>
+        <a href="../../competition-overview/" class="icon icon-home"> PARC</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -48,44 +46,89 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../../competition-overview/">Competition Overview</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Competition Instruction</span></p>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="#">Phase 1: Simulation</a>
-    <ul class="current">
-                <li class="toctree-l2"><a class="reference internal" href="../">Introduction</a>
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../competition-overview/">Competition Overview</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Competition Instruction</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <span class="caption-text">Phase 1: Simulation</span>
+    <ul class="subnav">
+                <li class="toctree-l3">
+                    
+    <a class="" href="../">Introduction</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../task1/">Task 1</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../task1/">Task 1: Sidewalk following</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../task2/">Task 2</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../task2/">Task 2: Traffic sign detection and recognition</a>
                 </li>
-                <li class="toctree-l2 current"><a class="reference internal current" href="./">Task 3</a>
-    <ul class="current">
-    <li class="toctree-l3"><a class="reference internal" href="#task_guidelines">Task Guidelines</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#scoring">Scoring</a>
-    </li>
+                <li class="toctree-l3 current">
+                    
+    <a class="current" href="./">Task 3: Go-to-goal navigation</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l4"><a href="#task_3_go-to-goal_navigation">Task 3: Go-to-goal navigation</a></li>
+    
+
+    <li class="toctree-l4"><a href="#task_guidelines">Task Guidelines</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l5" href="#1_launching_the_task">1. Launching the Task</a></li>
+        
+            <li><a class="toctree-l5" href="#2_preparing_your_solution">2. Preparing your Solution</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l4"><a href="#task_rules_and_scoring">Task Rules and Scoring</a></li>
+    
+
     </ul>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../how-to-submit/">How to Submit</a>
+                <li class="toctree-l3">
+                    
+    <a class="" href="../how-to-submit/">How to Submit</a>
                 </li>
     </ul>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Getting Started Tutorials</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../../getting-started/setting-up-your-pc/">Setting up your PC</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="../../getting-started/setting-up-your-workspace/">Setting up your Workspace</a>
-                    </li>
-                </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Getting Started Tutorials</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../getting-started/setting-up-your-pc/">Setting up your PC</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../getting-started/setting-up-your-workspace/">Setting up your Workspace</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
       </div>
-    </div>
+      &nbsp;
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -93,7 +136,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../..">PARC</a>
+        <a href="../../competition-overview/">PARC</a>
       </nav>
 
       
@@ -101,7 +144,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../..">Docs</a> &raquo;</li>
+    <li><a href="../../competition-overview/">Docs</a> &raquo;</li>
     
       
         
@@ -113,12 +156,11 @@
         
       
     
-    <li>Task 3</li>
+    <li>Task 3: Go-to-goal navigation</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
   </ul>
-  
   <hr/>
 </div>
           <div role="main">
@@ -126,23 +168,92 @@
               
                 <h2 id="task_3_go-to-goal_navigation">Task 3: Go-to-goal navigation<a class="headerlink" href="#task_3_go-to-goal_navigation" title="Permanent link">&para;</a></h2>
 <p><img alt="task3 GIF" src="../media/task3.gif" /></p>
-<h3 id="task_guidelines">Task Guidelines<a class="headerlink" href="#task_guidelines" title="Permanent link">&para;</a></h3>
+<p>The final task of this phase is to navigate safely through a park to reach the customer. The problem here is to navigate in an unconstrained but cluttered terrain without colliding with any obstacles. In this task you are required to move through a collision-free path to the goal using only your on-board sensors.</p>
+<p><strong>Task 3 Goal:</strong> The goal of this task is to autonomously control the delivery robot from the robot start position to a goal location in the park without colliding with obstacles.</p>
 <ul>
-<li><strong>Goal:</strong> Implement software which processes sensory information from the robots sensors (camera and LiDAR) and generates velocity commands to control the robot's motion to move from the start position towards to drop off which is in front of the person standing in the park.</li>
-<li><strong>Step 1:</strong> Review the "Task 3" folder in the Github repository.</li>
-<li><strong>Step 2:</strong> Complete the [Setting up your PC] and [Setting up workspace] steps (if you have not already done so).</li>
-<li><strong>Step 3:</strong> Run the following launch file to bring up the robot in the designated world in a new terminal <br>
-<code>roslaunch &lt;our-robot-package-name&gt; task3.launch</code></li>
+<li>To do this, you need to develop software which <em>processes sensory information</em> from the robots sensors (camera and LiDAR) and <em>generates velocity commands</em> to control the robot's motion [see here for details].</li>
 </ul>
-<p>You should see the display below in Gazebo. There is a orange-red sphere which represents the <strong>goal location</strong>.</p>
-<p><img alt="task1.1" src="../media/task3.png" /></p>
-<h3 id="scoring">Scoring<a class="headerlink" href="#scoring" title="Permanent link">&para;</a></h3>
-<p>The score for this task would be determined using the following metrics:</p>
+<h2 id="task_guidelines">Task Guidelines<a class="headerlink" href="#task_guidelines" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure you have completed the <strong>Getting Started Tutorials</strong> before starting the tasks.</p>
+</div>
+<h5 id="1_launching_the_task">1. Launching the Task<a class="headerlink" href="#1_launching_the_task" title="Permanent link">&para;</a></h5>
 <ul>
-<li>No. of collisions penalty</li>
-<li>Final distance from goal (set time limit)</li>
-<li>Completion time</li>
+<li>In a new terminal, run the following launch file to bring up the delivery robot in Gazebo and RViz: <br></li>
 </ul>
+<pre><code>roslaunch parc-robot task3.launch
+</code></pre>
+
+<ul>
+<li>You should see the display below in Gazebo. To the right, there's the robot and to the left is the orange-red sphere (the <strong>goal location</strong>) in front of the person.</li>
+</ul>
+<p><img alt="task3" src="../media/task3.png" /></p>
+<h5 id="2_preparing_your_solution">2. Preparing your Solution<a class="headerlink" href="#2_preparing_your_solution" title="Permanent link">&para;</a></h5>
+<ul>
+<li>
+<p>Your solution should be prepared as ROS packages to be saved in your solution folder [link to how to submit]. Create a launch file in your ROS package which runs ALL the code you need in your solution. Name this launch file: <code>task3_solution.launch</code>.</p>
+</li>
+<li>
+<p>Hence, your solution to Task 3 should be run by calling the following commands simulatenously: </p>
+</li>
+</ul>
+<p>In one terminal:</p>
+<pre><code>roslaunch parc-robot task3.launch
+</code></pre>
+
+<p>In another terminal:</p>
+<pre><code>roslaunch &lt;your-package-name&gt; task3_solution.launch
+</code></pre>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Ensure you DO NOT provide a solution with hard-coded positions for the robot to move to or hard-coded obstacle positions because in evaluation, the goal locations and locations of obstacles would be randomized.</p>
+</div>
+<h2 id="task_rules_and_scoring">Task Rules and Scoring<a class="headerlink" href="#task_rules_and_scoring" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>The time-limit to complete this task is <strong>8 minutes (480 secs)</strong>.</p>
+</li>
+<li>
+<p>For The task is ONLY <strong>complete</strong> when ANY part of the robot is inside the orange-red sphere (goal location marker).</p>
+</li>
+<li>
+<p>You will be explicitly scored on the distance traveled, hence, do you best to follow the <strong>shortest path possible</strong> to the goal.</p>
+</li>
+</ul>
+<p>Scoring for this task would be based on the following criteria:</p>
+<table>
+<thead>
+<tr>
+<th>S/N</th>
+<th>Criteria / Metric</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Final distance to goal</td>
+<td>Euclidean distance from robot (measured from robot center) to the goal which is calculated at the time limit [8 minutes] (<strong>Smaller is better</strong>)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Collisions</td>
+<td>Number of times the robot comes in contact with either obstacles, building, or walls (<strong>Smaller is better</strong>).</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Completion time</td>
+<td>Time from launching the solution to task completion (<strong>Smaller is better</strong>)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Total travel distance</td>
+<td>Travel distance covered by the robot (<strong>Smaller is better</strong>)</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div>
@@ -153,7 +264,7 @@
         <a href="../how-to-submit/" class="btn btn-neutral float-right" title="How to Submit">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../task2/" class="btn btn-neutral" title="Task 2"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../task2/" class="btn btn-neutral" title="Task 2: Traffic sign detection and recognition"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -165,7 +276,7 @@
     
   </div>
 
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
         </div>
@@ -175,7 +286,7 @@
 
   </div>
 
-  <div class="rst-versions" role="note" aria-label="versions">
+  <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
@@ -189,11 +300,6 @@
     <script>var base_url = '../..';</script>
     <script src="../../js/theme.js" defer></script>
       <script src="../../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        };
-    </script>
 
 </body>
 </html>
