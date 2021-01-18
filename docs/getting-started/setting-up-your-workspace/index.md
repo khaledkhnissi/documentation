@@ -69,6 +69,12 @@ If you completed the preceding tasks successfully, you should be able to run thi
 ```sh
 roslaunch parc-robot task1.launch
 ```
+![Gazebo Simulator window](gazebo.png)
+Gazebo Simulator window
+
+
+![RViz window](rviz.png)
+RViz window
 
 And run the following command in another terminal
 ```sh
