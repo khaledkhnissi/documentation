@@ -7,14 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
+  
   <link rel="shortcut icon" href="../../img/favicon.ico">
   <title>Task 1: Sidewalk following - PARC</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
-  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-  <link href="../../theme_override.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  <link href="../../theme_override.css" rel="stylesheet" />
   
   <script>
     // Current page data
@@ -25,7 +26,7 @@
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
   <script src="../../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
@@ -36,8 +37,9 @@
 
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="../../competition-overview/" class="icon icon-home"> PARC</a>
+        <a href="../.." class="icon icon-home"> PARC</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -46,83 +48,52 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../../competition-overview/">Competition Overview</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Competition Instruction</span>
-    <ul class="subnav">
-                <li class=" current">
-                    
-    <span class="caption-text">Phase 1: Simulation</span>
-    <ul class="subnav">
-                <li class="toctree-l3">
-                    
-    <a class="" href="../">Introduction</a>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../competition-overview/">Competition Overview</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Competition Instruction</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="#">Phase 1: Simulation</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../">Introduction</a>
                 </li>
-                <li class="toctree-l3 current">
-                    
-    <a class="current" href="./">Task 1: Sidewalk following</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l4"><a href="#task_1_sidewalk_following">Task 1: Sidewalk following</a></li>
-    
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">Task 1: Sidewalk following</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#task_guidelines">Task Guidelines</a>
         <ul>
-        
-            <li><a class="toctree-l5" href="#task_guidelines">Task Guidelines</a></li>
-        
-            <li><a class="toctree-l5" href="#task_rules_and_scoring">Task Rules and Scoring</a></li>
-        
+    <li class="toctree-l4"><a class="reference internal" href="#1_launching_the_task">1. Launching the Task</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#2_explore_multiple_routes">2. Explore Multiple Routes</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#3_preparing_your_solution">3. Preparing your Solution</a>
+    </li>
         </ul>
-    
-
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#task_rules_and_scoring">Task Rules and Scoring</a>
+    </li>
     </ul>
                 </li>
-                <li class="toctree-l3">
-                    
-    <a class="" href="../task2/">Task 2: Traffic sign detection and recognition</a>
+                <li class="toctree-l2"><a class="reference internal" href="../task2/">Task 2: Traffic sign detection and recognition</a>
                 </li>
-                <li class="toctree-l3">
-                    
-    <a class="" href="../task3/">Task 3: Go-to-goal navigation</a>
+                <li class="toctree-l2"><a class="reference internal" href="../task3/">Task 3: Go-to-goal navigation</a>
                 </li>
-                <li class="toctree-l3">
-                    
-    <a class="" href="../how-to-submit/">How to Submit</a>
+                <li class="toctree-l2"><a class="reference internal" href="../how-to-submit/">How to Submit</a>
                 </li>
     </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Getting Started Tutorials</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../../getting-started/setting-up-your-pc/">Setting up your PC</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../getting-started/setting-up-your-workspace/">Setting up your Workspace</a>
-                </li>
-    </ul>
-	    </li>
-          
-        </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../phase2-instructions/">Phase 2: Physical Robot</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Getting Started Tutorials</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../getting-started/setting-up-your-pc/">Setting up your PC</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../getting-started/setting-up-your-workspace/">Setting up your Workspace</a>
+                    </li>
+                </ul>
       </div>
-      &nbsp;
+    </div>
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
@@ -130,7 +101,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../../competition-overview/">PARC</a>
+        <a href="../..">PARC</a>
       </nav>
 
       
@@ -138,7 +109,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="../../competition-overview/">Docs</a> &raquo;</li>
+    <li><a href="../..">Docs</a> &raquo;</li>
     
       
         
@@ -155,6 +126,7 @@
       
     </li>
   </ul>
+  
   <hr/>
 </div>
           <div role="main">
@@ -178,7 +150,6 @@
 </ul>
 <pre><code>roslaunch parc-robot task1.launch
 </code></pre>
-
 <ul>
 <li>You should see the display below in Gazebo. To the right, there's the robot and to the left is the orange-red sphere which represents the <strong>goal location</strong>.</li>
 </ul>
@@ -189,7 +160,6 @@
 </ul>
 <pre><code>roslaunch parc-robot task1.launch route:=route2
 </code></pre>
-
 <ul>
 <li>We recommend you play around with at least these two routes to ensure your solution is robust to different start locations.</li>
 </ul>
@@ -205,11 +175,9 @@
 <p>In one terminal:</p>
 <pre><code>roslaunch parc-robot task1.launch
 </code></pre>
-
 <p>In another terminal:</p>
 <pre><code>roslaunch &lt;your-package-name&gt; task1_solution.launch
 </code></pre>
-
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Ensure you DO NOT provide a solution with hard-coded positions for the robot to move to or hard-coded obstacle positions because in evaluation, the robot initial position and locations of obstacles (postbox, fire hydrant, etc.) would be randomized.</p>
@@ -277,7 +245,7 @@
     
   </div>
 
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
         </div>
@@ -287,7 +255,7 @@
 
   </div>
 
-  <div class="rst-versions" role="note" style="cursor: pointer">
+  <div class="rst-versions" role="note" aria-label="versions">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
@@ -301,6 +269,11 @@
     <script>var base_url = '../..';</script>
     <script src="../../js/theme.js" defer></script>
       <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
 
 </body>
 </html>
