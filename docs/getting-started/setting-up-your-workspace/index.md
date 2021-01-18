@@ -76,7 +76,20 @@ Gazebo Simulator window
 ![RViz window](rviz.png)
 RViz window
 
-And run the following command in another terminal
+
+If you run the following command in a new terminal,
+```
+rqt_graph
+```
+You will see a screen like this:
+
+![RQT Graph](rosgraph.png)
+
+You need to `publish`/write to the `topic` `/cmd_vel` to move the robot.
+The following guide will help you control the robot using keyboard. Once you have tested that, you can follow the [understanding-ros](../understanding-ros) guide to write a python program to control the robot.
+
+### Controlling the robot using keyboard
+Run the following command in a new terminal
 ```sh
 source ~/catkin_ws/devel/setup.bash
 roslaunch parc-robot teleop.launch
