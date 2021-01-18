@@ -89,7 +89,11 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#test_installation">Test installation</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#controlling_the_robot_using_keyboard">Controlling the robot using keyboard</a>
+    </li>
     </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../understanding-ros/">Introduction to ROS</a>
                     </li>
                 </ul>
       </div>
@@ -178,7 +182,15 @@ source ~/.bashrc
 Gazebo Simulator window</p>
 <p><img alt="RViz window" src="rviz.png" />
 RViz window</p>
-<p>And run the following command in another terminal</p>
+<p>If you run the following command in a new terminal,</p>
+<pre><code>rqt_graph
+</code></pre>
+<p>You will see a screen like this:</p>
+<p><img alt="RQT Graph" src="rosgraph.png" /></p>
+<p>You need to <code>publish</code>/write to the <code>topic</code> <code>/cmd_vel</code> to move the robot.
+The following guide will help you control the robot using keyboard. Once you have tested that, you can follow the <a href="../understanding-ros">understanding-ros</a> guide to write a python program to control the robot.</p>
+<h3 id="controlling_the_robot_using_keyboard">Controlling the robot using keyboard<a class="headerlink" href="#controlling_the_robot_using_keyboard" title="Permanent link">&para;</a></h3>
+<p>Run the following command in a new terminal</p>
 <pre><code class="language-sh">source ~/catkin_ws/devel/setup.bash
 roslaunch parc-robot teleop.launch
 </code></pre>
@@ -195,6 +207,8 @@ you can use the keys shown below to move the robot and <code>k</code> key to sto
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../understanding-ros/" class="btn btn-neutral float-right" title="Introduction to ROS">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../setting-up-your-pc/" class="btn btn-neutral" title="Setting up your PC"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -225,6 +239,8 @@ you can use the keys shown below to move the robot and <code>k</code> key to sto
       
         <span><a href="../setting-up-your-pc/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../understanding-ros/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
