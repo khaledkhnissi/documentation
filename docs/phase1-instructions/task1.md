@@ -18,7 +18,7 @@ Delivery robots need to be able to navigate safely through street sidewalks as t
 ##### 1. Launching the Task
 
 - In a new terminal, run the following launch file to bring up the delivery robot in Gazebo and RViz: <br>
-``` 
+```shell
 roslaunch parc-robot task1.launch
 ``` 
 - You should see the display below in Gazebo. To the right, there's the robot and to the left is the orange-red sphere which represents the **goal location**.
@@ -30,7 +30,7 @@ roslaunch parc-robot task1.launch
 
 - We have prepared two pre-defined routes you can use as you develop your solution. The default route is `route1`, but you can select the second route option (`route2`) by passing the argument in the `roslaunch` command as follows:
 
-``` 
+``` shell
 roslaunch parc-robot task1.launch route:=route2
 ``` 
 - We recommend you play around with at least these two routes to ensure your solution is robust to different start locations.
@@ -43,11 +43,11 @@ roslaunch parc-robot task1.launch route:=route2
 - Hence, your solution to Task 1 should be run by calling the following commands simulatenously: 
 
 In one terminal:
-```
+``` shell
 roslaunch parc-robot task1.launch
 ```
 In another terminal:
-```
+```shell
 roslaunch <your-package-name> task1_solution.launch
 ```
 
@@ -66,6 +66,6 @@ Scoring for this task would be based on the following criteria:
 |  S/N | Criteria / Metric    | Description
 | ------------- | ----------- | ----------- |
 |  1  | Out-of-lane distance    |  Total distance traveled with any part of the robot lying outside the lane (**Smaller is better**)
-|  2  | Final travel distance from goal location   |  Shortest travel distance from robot (measured from robot center) to the goal which is calculated at the time limit [5 minutes] (**Smaller is better**)
+|  2  | Final travel distance to goal   |  Shortest travel distance from robot (measured from robot center) to the goal which is calculated at the time limit [5 minutes] (**Smaller is better**)
 |  3  | Collisions   | Number of times the robot comes in contact with either obstacles, building, or walls (**Smaller is better**).
 |  4  | Completion time   |  Time from launching the solution to task completion (**Smaller is better**)

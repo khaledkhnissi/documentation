@@ -23,7 +23,8 @@ nav:
 
     - 'Getting Started Tutorials':
         - 'Setting up your PC': 'getting-started/setting-up-your-pc/index.md'
+        - 'Getting started with ROS': 'getting-started/getting-started-with-ros/understanding-ros.md'
         - 'Setting up your Workspace': 'getting-started/setting-up-your-workspace/index.md'
-        - 'Introduction to ROS': 'getting-started/understanding-ros.md'
+        
 
 extra_css: [theme_override.css]

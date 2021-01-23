@@ -18,7 +18,7 @@ The final task of this phase is to navigate safely through a park to reach the c
 ##### 1. Launching the Task
 
 - In a new terminal, run the following launch file to bring up the delivery robot in Gazebo and RViz: <br>
-``` 
+``` shell
 roslaunch parc-robot task3.launch
 ``` 
 - You should see the display below in Gazebo. To the right, there's the robot and to the left is the orange-red sphere (the **goal location**) in front of the person.
@@ -33,11 +33,11 @@ roslaunch parc-robot task3.launch
 - Hence, your solution to Task 3 should be run by calling the following commands simulatenously: 
 
 In one terminal:
-```
+```shell
 roslaunch parc-robot task3.launch
 ```
 In another terminal:
-```
+```shell
 roslaunch <your-package-name> task3_solution.launch
 ```
 

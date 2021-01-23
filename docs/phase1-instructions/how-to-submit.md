@@ -1,8 +1,9 @@
 # How to Submit
 
-Teams would submit their solution of ROS packages as zip.
+Teams are expected to develop their solutions (ROS packages) in a 'solutions' folder inside the `~/catkin_ws/src` directory. You may have one or more ROS packages in this folder for all your tasks. 
 
-Below is the expected folder structure of your files.
+See figure below of expected directory structure:
+
 ```
 ~/catkin_ws/src
 ├── CMakeLists.txt
@@ -32,14 +33,13 @@ Below is the expected folder structure of your files.
     └── README.md                   # Required
 ```
 
-A README file (either .txt, .md, or .pdf) with the following information is **MANDATORY** in the zip package:
+1. Prepare a README.md file following this format and store in solution folder (see [example](https://github.com/PARC-Robotics/PARC-Engineers-League/blob/develop/resources/sample-submission-readme.md)):
+    * Introduction Section: Briefly describe your approach
+    * Dependencies: List all the packages installed and used in your solution
+    * Task 1 - 3 description and run command(s)
+    * Challenges faced
 
-* List all the packages installed and used in your solution.
-* Provide commands required to run your solution. This should be:
-    - Task 1: ` roslaunch <your-package-name> task1_solution.launch `
-    - Task 2: ` roslaunch <your-package-name> task2_solution.launch `
-    - Task 3: ` roslaunch <your-package-name> task3_solution.launch `
+2. Include all the packages (dependencies) used in your solution in your package's "package.xml" file ([see guide](http://wiki.ros.org/rosdep/Tutorials/How%20to%20add%20a%20system%20dependency))
+3. Zip your solution folder and upload on the [solution submission form](https://forms.gle/zwe7VcgVYV5giDBt9)
 
- **NOTE:** Please ensure you include all the packages (dependencies) used in your solution in your package's "package.xml" file [see guide](http://wiki.ros.org/rosdep/Tutorials/How%20to%20add%20a%20system%20dependency). <br>
 
-The zipped folder should be uploaded using this *solution submission form*.

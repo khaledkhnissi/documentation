@@ -19,8 +19,8 @@ In this phase, teams would interact with the delivery robot in simulation (using
 * Traffic sign detection and recognition
 * Go-to-goal navigation (with obstacle avoidance)
 
-Participating teams can download the complete simulation packages (follow this link) and follow the instruction [here] to set up their PCs and complete the tasks.
-Teams are required to submit their solutions to the competition drive on or before the Phase 1 deadline. Following team evaluations, teams with the best solutions will qualify to compete in Phase 2.
+Participating teams will follow the instructions ([starting here]((../getting-started/setting-up-your-pc/index.md))) in this documentation to set up their PCs and download the complete simulation packages required to complete the tasks. 
+Teams are required to complete and upload their solutions on or before the Phase 1 deadline. Following team evaluations, teams with the best solutions will qualify to compete in Phase 2.
 
 ### Physical Robot Phase
 In this phase, the qualified teams get a chance to refine and deploy their software on the physical robot to compete on the main competition day. First, a complete simulation of the competition environment would be provided to teams to integrate and their solutions from Phase 1. The task here is to operate the delivery robot to complete a delivery by moving from parcel pickup location to the drop-off location. 

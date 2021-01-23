@@ -18,7 +18,7 @@ Teams are required to develop software to use the on-board camera to detect and 
 ##### 1. Launching the Task
 
 - In a new terminal, run the following launch file to bring up the delivery robot in Gazebo and RViz: <br>
-``` 
+``` shell
 roslaunch parc-robot task2.launch
 ``` 
 - You should see the display below in Gazebo. The robot needs to cross the crosswalk and reach the orange-red sphere (**goal location**) on the other side.
@@ -32,7 +32,7 @@ roslaunch parc-robot task2.launch
 
 - We have provided a simple way to set arbitrary values for the `start_delay`. This can be done by passing an argument as follows (e.g. we set it to 20 here):
     
-``` 
+``` shell
 roslaunch parc-robot task2.launch start_delay:=20
 ```
 
@@ -50,11 +50,11 @@ roslaunch parc-robot task2.launch start_delay:=20
 - Hence, your solution to Task 2 should be run by calling the following commands simulatenously: 
 
 In one terminal:
-```
+```shell
 roslaunch parc-robot task2.launch
 ```
 In another terminal:
-```
+```shell
 roslaunch <your-package-name> task2_solution.launch
 ```
 
