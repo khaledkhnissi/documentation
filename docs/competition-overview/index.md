@@ -29,15 +29,18 @@ Once satisfactory results are achieved in simulation, participants would be allo
 To be allowed to compete on the final competition, teams must submit a report (including videos of their fully functional solution in simulation) and upload their code for review.
 
 
+### Competition Prizes
+- The 1st place winner: **$2,000**
+- Other awards for top teams include prizes from sponsors such as laptops, tablets & mentoring!
 
 ## How to Participate
 
-Prospective teams would be required to complete an [online application](https://forms.gle/mY3cqswFj2VHxsHM7) by providing the following information:
+Prospective teams would be required to complete an [online application](https://creatorapp.zohopublic.com/zoho_info23208/parc-teams/form-perma/Apply_for_PARC_2021/DbgeNAHtvKN0UEXvmYfwSRW6F37KUrHKX9hhw89qqkRJnXFgQzk1Sg6yEOVRDQURFTAbYYBETYgvjNuHNmNtNbuAOgKzBWsnvfUa).
 
-* Team name and affiliation
+<!-- * Team name and affiliation
 * Team members names
 * Previous experiences with robotics
-* A one-page essay on the role of robotics on the future of work in Africa (uploaded as a PDF)
+* A one-page essay on the role of robotics on the future of work in Africa (uploaded as a PDF) -->
 
 
 
@@ -45,10 +48,12 @@ Prospective teams would be required to complete an [online application](https://
 
 |  Event | Date    |
 | ------------- | ----------- |
-|  Registration Opens  | February 5th 2021     |
-|  Registration Deadline  | February  19th 2021   |
-|  Phase 1 Qualification Announcement  | February 26th 2021   |
-|  Phase 1 Submission Deadline  | June 1st 2021   |
-|  Phase 2 Qualification Announcement  | June 11th 2021   |
-|  Phase 2 Submission Deadline  | July 11th 2021   |
-|  Final Competition Day  | July 2021   |
+|  Registration Opens  | February 20th 2021     |
+|  Registration Deadline  | March 20th 2021   |
+|  Phase 1 Submission Deadline  | May 16th 2021   |
+|  Phase 2 Qualification Announcement  | May 28th 2021   |
+|  Phase 2 Submission Deadline  | July 2nd 2021   |
+|  Final Competition Days  | July 9th-11th 2021   |
+
+
+<!-- |  Phase 1 Qualification Announcement  | February 26th 2021   | -->

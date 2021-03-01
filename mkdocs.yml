@@ -12,6 +12,11 @@ plugins:
 nav:
     - 'Competition Overview': 'competition-overview/index.md'
 
+    - 'Getting Started Tutorials':
+        - 'Setting up your PC': 'getting-started/setting-up-your-pc/index.md'
+        - 'Getting started with ROS': 'getting-started/getting-started-with-ros/understanding-ros.md'
+        - 'Setting up your Workspace': 'getting-started/setting-up-your-workspace/index.md'
+
     - 'Competition Instruction': 
         - 'Phase 1: Simulation':
             - 'Introduction': 'phase1-instructions/index.md'
@@ -19,12 +24,12 @@ nav:
             - 'Task 2: Traffic sign detection and recognition': 'phase1-instructions/task2.md'
             - 'Task 3: Go-to-goal navigation': 'phase1-instructions/task3.md'
             - 'How to Submit': 'phase1-instructions/how-to-submit.md'
-        - 'Phase 2: Physical Robot': 'phase2-instructions/index.md'
+        - 'Phase 2: Physical Robot': 
+            - 'Introduction': 'phase2-instructions/index.md'
+    
+    - 'Frequently Asked Questions': 'faqs/index.md'
 
-    - 'Getting Started Tutorials':
-        - 'Setting up your PC': 'getting-started/setting-up-your-pc/index.md'
-        - 'Getting started with ROS': 'getting-started/getting-started-with-ros/understanding-ros.md'
-        - 'Setting up your Workspace': 'getting-started/setting-up-your-workspace/index.md'
+    
         
 
 extra_css: [theme_override.css]
