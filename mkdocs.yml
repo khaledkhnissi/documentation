@@ -27,6 +27,8 @@ nav:
         - 'Phase 2: Physical Robot': 
             - 'Introduction': 'phase2-instructions/index.md'
     
+    - 'Q & A Forum': 'forum/index.md'
+    
     - 'Frequently Asked Questions': 'faqs/index.md'
 
     
