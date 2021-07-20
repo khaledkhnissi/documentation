@@ -26,6 +26,10 @@ nav:
             - 'How to Submit': 'phase1-instructions/how-to-submit.md'
         - 'Phase 2: Physical Robot': 
             - 'Introduction': 'phase2-instructions/index.md'
+            - 'Getting Started in Simulation': 'phase2-instructions/getting-started-simulation.md'
+            - 'Developing in Simulation': 'phase2-instructions/simulation-mode.md'
+            - 'Testing on Physical Robot': 'phase2-instructions/physical-robot-mode.md'
+            # - 'How to Remotely Access the Robot': 'phase2-instructions/remote-robot-access.md'
     
     - 'Q & A Forum': 'forum/index.md'
     

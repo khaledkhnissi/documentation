@@ -51,8 +51,10 @@ After you register, your team must complete the [Team profile form]( https://cre
 |  Registration Deadline  | March 20th 2021   |
 |  Phase 1 Submission Deadline  | May 16th 2021   |
 |  Phase 2 Qualification Announcement  | May 28th 2021   |
-|  Phase 2 Submission Deadline  | July 2nd 2021   |
-|  Final Competition Days  | July 9th-11th 2021   |
+|  Phase 2 Kick-Off  | July 16th 2021   |
+|  Phase 2 Testing Period  | July 29th-August 25th 2021   |
+|  Phase 2 Submission Deadline  | August 25th 2021   |
+|  Final Competition Days  | August 27th-28th 2021   |
 
 
 <!-- |  Phase 1 Qualification Announcement  | February 26th 2021   | -->
