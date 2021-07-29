@@ -29,7 +29,7 @@ nav:
             - 'Getting Started in Simulation': 'phase2-instructions/getting-started-simulation.md'
             - 'Developing in Simulation': 'phase2-instructions/simulation-mode.md'
             - 'Testing on Physical Robot': 'phase2-instructions/physical-robot-mode.md'
-            # - 'How to Remotely Access the Robot': 'phase2-instructions/remote-robot-access.md'
+            - 'Team Naming Convention': 'phase2-instructions/team-names.md'
     
     - 'Q & A Forum': 'forum/index.md'
     
