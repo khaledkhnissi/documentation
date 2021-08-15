@@ -29,7 +29,9 @@ nav:
             - 'Getting Started in Simulation': 'phase2-instructions/getting-started-simulation.md'
             - 'Developing in Simulation': 'phase2-instructions/simulation-mode.md'
             - 'Testing on Physical Robot': 'phase2-instructions/physical-robot-mode.md'
+            - 'Offline Development and Troubleshooting': 'phase2-instructions/offline-development.md'
             - 'Team Naming Convention': 'phase2-instructions/team-names.md'
+            - 'What to Submit': 'phase2-instructions/submission-info.md'
     
     - 'Q & A Forum': 'forum/index.md'
     

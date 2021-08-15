@@ -1,7 +1,7 @@
 
 # Developing in Simulation
 
-![task1 GIF](media/task.gif)
+![task GIF](media/task.gif)
 
 The goal here is to solve the complete delivery robot navigation task which is a combination of the three tasks completed in Phase 1, namely:
 
@@ -11,7 +11,7 @@ The goal here is to solve the complete delivery robot navigation task which is a
 
 In this Phase 2, you are required to do the following:
 
-* Refine your solution to the different tasks to make sure they work
+* Refine your solution to the different tasks to make sure they function as expected
 * Combine your solutions together into one complete solution that manages the different tasks together in real-time (as shown in image above)
 
 ## Task Guidelines
@@ -25,9 +25,13 @@ In this Phase 2, you are required to do the following:
 ```shell
 roslaunch turtlebot_parc turtlebot_parc.launch
 ``` 
-- You should see the display below in Gazebo. To the right, there's the robot and to the left is the green sphere which represents the **final goal location**.
+- You should see the display below in Gazebo. To the right, there's the robot and to the left is the circular green marker on the wall which represents the **final goal location**.
 
-![task1.1](media/gazebo.png)
+![task overview](media/gazebo.png)
+
+- The arrow in the figure below shows the robot in the goal location, facing the circular green marker. The goal is to get as close to the green marker and then stop. The robot camera view is also show below.
+
+![goal-position](media/goal-position-sim.png)
 
 
 ##### 2. Explore Multiple Routes
