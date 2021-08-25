@@ -34,6 +34,8 @@ This is your final report summarizing the work done and lessons learned by your 
     - Formatting: Font size should be 12, 1.5 line spacing, margins of at least 1 inch
     - Be sure to include figures, sketches, diagrams to illustrate your work
 
+Submit your [Project Report here](https://forms.gle/mLstEYxUhDfXRe3v8).
+
 *** 
 
 ### Project Presentation Video
@@ -52,6 +54,8 @@ This is your final report summarizing the work done and lessons learned by your 
     - Format: MP4
     - Participation: Display an image of all the team members in your recorded video
 
+Submit your [Project Presentation Video here](https://forms.gle/ofoRbEXgdoL9rR1d7).
+
 ***
 
 ### Software Package(s) - For Physical Robot
@@ -62,6 +66,8 @@ The final item to submit is a zipped folder of your entire software solution.
 - Please carefully review and follow the [How to Submit](../phase1-instructions/how-to-submit.md) page for the format of your submission. 
 - In this case, you have ONLY ONE TASK, hence, kindly adjust your README.md file to show only one task and provide the commands to run to launch your solution.
 
+Submit your [Software Package (For Physical Robot) here](https://forms.gle/ofoRbEXgdoL9rR1d7).
+
 ***
 
 ### Software Package(s) - For Simulation
@@ -71,6 +77,8 @@ Please follow the same format as above (for the Physical Robot case).
 
 - Please carefully review and follow the [How to Submit](../phase1-instructions/how-to-submit.md) page for the format of your submission. 
 - In this case, you have ONLY ONE TASK, hence, kindly adjust your README.md file to show only one task and provide the commands to run to launch your solution.
+
+Submit your [Software Package (For Simulation) here](https://forms.gle/95ECZX54Kvxj84sc7).
 
 ***
 
