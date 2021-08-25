@@ -1,9 +1,18 @@
 # What to Submit
 
+There are four (4) items to submit as we finalize the competition:
 
-<!-- Every team is required to submit the following items by **end of day on August 25th, 2021 (Anywhere on earth)**:
-- Project Report
-- Project Presentation Video -->
+|  Item | Deadline    |
+| ------------- | ----------- |
+|  Project Report  | August 25th 2021     |
+|  Project Presentation Video  | August 26th 2021   |
+|  Software Package(s) - For Physical Robot  | August 26th 2021   |
+|  Software Package(s) - For Simulation  | August 27th 2021   |
+
+Please see detailed instructions on how to submit below.
+
+
+***
 
 ### Project Report
 ###### Due Date: 11:59PM on August 25th, 2021 (Eastern African Time)
@@ -45,10 +54,20 @@ This is your final report summarizing the work done and lessons learned by your 
 
 ***
 
-### Software Package(s)
+### Software Package(s) - For Physical Robot
 ###### Due Date: 11:59PM on August 26th, 2021 (Eastern African Time)
 
 The final item to submit is a zipped folder of your entire software solution. 
+
+- Please carefully review and follow the [How to Submit](../phase1-instructions/how-to-submit.md) page for the format of your submission. 
+- In this case, you have ONLY ONE TASK, hence, kindly adjust your README.md file to show only one task and provide the commands to run to launch your solution.
+
+***
+
+### Software Package(s) - For Simulation
+###### Due Date: 11:59PM on August 27th, 2021 (Eastern African Time)
+
+Please follow the same format as above (for the Physical Robot case).
 
 - Please carefully review and follow the [How to Submit](../phase1-instructions/how-to-submit.md) page for the format of your submission. 
 - In this case, you have ONLY ONE TASK, hence, kindly adjust your README.md file to show only one task and provide the commands to run to launch your solution.
